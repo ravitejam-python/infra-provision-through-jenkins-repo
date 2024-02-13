@@ -36,6 +36,6 @@ resource "aws_instance" "infra-provision-through-Jenkins-Server" {
     ami = "ami-0c7217cdde317cfec"    # AWS Ubuntu instance AMI ID
     instance_type = "t2.micro"
     vpc_security_group_ids = [aws_security_group.mysg.id]
-    user_data = base64encode(file("userdata.sh"))
+    
   
 }
