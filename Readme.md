@@ -17,6 +17,7 @@ Step 5: Create a new Pipeline job in Jenkins:
 Step 6: Add parameters to the pipeline (Click checkbox - This project is parameterized, choose Choice Parameter)
 
 Add below pipeline code and modify per your GitHub repo configuration.
+
 Note: Alternative for below approach is maintaining Jenkinsfile in the Git repo and referencing it directly in Jenkins job.
 
 pipeline {
